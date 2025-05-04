@@ -1,0 +1,44 @@
+/*Carousel standart style start*/
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 8rem;
+  height: 8rem;
+  transition: all 0.3s linear;
+}
+.carousel-control-prev-icon {
+  @media screen and (min-width: 992px) {
+    &:hover {
+      transform: translateX(-16px);
+    }
+  }
+}
+.carousel-control-next-icon {
+  @media screen and (min-width: 992px) {
+    &:hover {
+      transform: translateX(16px);
+    }
+  }
+}
+
+.carousel-indicators {
+  bottom: 50px;
+  [data-bs-target] {
+    transition: all 0.3s linear;
+    border-radius: 6px;
+    height: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 24px;
+    border: none;
+    @media screen and (min-width: 992px) {
+      &:hover {
+        width: 45px;
+        opacity: 1;
+      }
+    }
+  }
+  .active {
+    width: 45px;
+  }
+}
+/*Carousel standart style end*/

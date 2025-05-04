@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><base href="../../">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merve's Corner</title>
+
+    <!--favicon set start-->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon'">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--favicon set end-->
+
+    <!--Google font Merriweather Sans start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!--Google font Merriweather Sans end-->
+
+    <!--bootstrap cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!--aos.css sayfa kaydırlırken anımasyon yapmak ıcın-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+<body class="overflow-hidden">
+    <!--Preloader Start-->
+    <div id="preloader" class="preloader">
+        <span class="icon-logo-dark customIcon"></span>
+        <div class="loaderText">Merve'nin Köşesine Hoşgeldiniz</div>
+    </div>
+    <!--Preloader end-->
+
+    <!--header start-->
+    <header id="header" class="bg-body-tertiary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="100"><span class="icon-logo-dark"></span> <span>Blog</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-none d-lg-flex w-50 mx-auto" role="search" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="300">
+                            <input class="form-control form-control-lg me-3 fs-6" type="search" placeholder="Aramak istediğiniz kelimeyi yazınız" aria-label="Search">
+                            <button class="btn button-primary btn-lg px-4" type="submit">Ara</button>
+                        </form>
+                        <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-5 gap-3 mt-5 mt-lg-0 aos-init aos-animate py-4 py-lg-0 px-4 px-lg-0" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="200">
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 fw-bold" href="blog-yazilarim.html">Blog Yazıları</a>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--header end-->
+
+    <!--content start-->
+    <main>
+        <!--blog cards start-->
+        <div class="pageContentWrapper">
+            <div class="container">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-offset="50" data-aos-delay="200">
+                    <img src="assets/img/media/banner/banner-blog-1.jpg" class="d-block w-100" alt="banner-blog-1.jpg">
+                </div>
+                <div class="pageHead">
+                    <h1>Bootstrap Nedir?</h1>
+                </div>
+                <div class="pageContent">
+                    <div class="row">
+                        <div class="paragraph col-lg-8">
+                            Bootstrap kullanımı incelenmeden önce Bootstrap’in ne olduğunu anlamak önemlidir. Bootstrap web siteleri ve web uygulamaları geliştirmek üzere tasarlanmış olan açık kaynaklı bir önyüz geliştirme çerçevesidir(framework). İlk Bootstrap örnekleri Mark Otto ve Jacon Thornton tarafından Twitter’da çalıştıkları dönemde tutarlılığı arttırıp bakımı azaltmak için yazılmıştır. En popüler çerçevelerden biri olup duyarlı(responsive), mobil öncelikli web geliştirmeler yapmayı kolaylaştırmak amacıyla oluşturulmuştur. Duyarlı web geliştirme, bir internet sitesinin masaüstü bilgisayar ya da mobil cihaz fark etmeksizin bütün cihazlar üzerinde aynı deneyimi yansıtmasına verilen isimdir.
+                            <h2>Bootstrap Nasıl Öğrenilir?</h2>
+                            Diğer teknolojilerde de olduğu gibi Bootstrap öğrenirken de tek ve kesin bir yoldan söz etmek mümkün değildir. Herkesin öğrenme alışkanlıkları farklılık gösterebilmektedir. Bazı kişiler dokümantasyon okuyarak daha iyi anlayabildiklerini düşünürken bazıları farklı platformlardan videolar izleyerek daha etkili öğrenme sağlayabilmektedir. Çeşitli eğitim kurumlarından Bootstrap dersleri almak da çok kullanılan bir yöntemdir. Ayrı ayrı olduğunda da bu yöntemlerden verim alınmaktadır lakin daha iyi bir öğrenme sağlayabilmek adına bütün yöntemleri birlikte kullanmak seni  en iyi sonuca götürecektir. Bootstrap öğrenirken kullanılan adımlardan bazıları şu şekildedir:
+                            <br><br>
+                            <ul>
+                                <li><b>Bootstrap Öğrenme Nedenini Belirle:</b> Neden Bootstrap öğrenmek istiyorsun, ana motivasyonun ne? Ön yüz geliştiricisi mi olmak istiyorsun? Yoksa hem ön yüz hem arka yüz yazdığın için ön yüz kısmını senin için kolaylaştırması adına mı seçiyorsun?</li>
+                                <li><b>Bootstrap’i İndirin:</b> Bootstrap’e erişmek için Bootstrap’in kendi internet sitesine giriş yapıp indirme işlemini gerçekleştirebilirsin.</li>
+                                <li><b>Başlamak için Küçük Bir Proje Seçin:</b> O an düşünüp bir fikir geliştirdikten sonra o fikri uygulamaya dökmeye çalışabilirsin. Eğer aklına bir fikir gelmiyorsa endişelenme internetteki proje fikirlerini araştırıp binlerce örnek arasından bir seçim yapman mümkün.</li>
+                                <li><b>Öğrenmeye Devam Edin:</b> Teknoloji sürekli gelişen bir ekosistem olduğu için Bootstrap’de de yenilikleri kaçırmamak için makale okumak, videolar izlemek, projeler geliştirmeye devam etmek gerekmekte.</li>
+                                <li><b>İnsanlarla İletişim İçinde Olun:</b> Öğrendiklerini başka insanlarla paylaş. Diğer geliştiricilerle Bootstrap kullanımı hakkında fikir alışverişi yapabilirsin. Bir YouTube kanalı açarak daha geniş kitlelerle bir komünite kurmak da her zaman bir seçenektir.</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 ms-auto">
+                            <div class="shareWrapper">
+                                <div class="title"><span class="icon-share"></span> <span>Bu makaleyi paylaş</span></div>
+                                <div class="shareButtons">
+                                    <button class="button shareButton" data-sharer="linkedin" data-url="https://ellisonleao.github.io/sharer.js/"><span class="icon-linkedin customIcon"></span></button>
+                                    <button class="button shareButton" data-sharer="email" data-title="Awesome Url" data-url="https://ellisonleao.github.io/sharer.js/" data-subject="Hey! Check out that URL" data-to="some@email.com"><span class="icon-email customIcon"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="bg-gray-light rounded-5 p-5 my-5">
+                                <div class="list-group gap-4">
+                                    <a href="pages/html/index.html" class="list-group-item list-group-item-action border-0 bg-transparent"><span class="customIcon icon-html"></span> <span>Html</span> </a>
+                                    <a href="pages/css/index.html" class="list-group-item list-group-item-action border-0 bg-transparent"><span class="customIcon icon-css"></span> <span>Css</span></a>
+                                    <a href="pages/bootstrap/index.html" class="list-group-item list-group-item-action border-0 bg-transparent"><span class="customIcon icon-bootstrap"></span> <span>Bootstrap</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--blog cards end-->
+
+    </main>
+    <!--content end-->
+
+    <!--footer start-->
+    <footer class="bg-dark py-5">
+        <div class="container d-flex">
+           <span class="fs-6 fw-medium"> © Tüm Hakları Saklıdır.</span>
+            <div class="d-flex align-items-center ms-auto">
+                <a href="https://www.linkedin.com/in/mervekabakci/" target="_blank"><span class="icon-linkedin"></span></a>
+            </div>
+        </div>
+    </footer>
+    <!--footer end-->
+
+    <!--Bootstrap cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <!--aos.js sayfa kaydırlırken anımasyon yapmak ıcın-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script><!--sosyal medya paylasım ıcın-->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
